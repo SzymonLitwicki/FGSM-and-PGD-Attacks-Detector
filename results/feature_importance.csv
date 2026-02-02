@@ -1,0 +1,586 @@
+detector,model,feature,importance
+FGSM,Random Forest,pixel_mean,0.0038605191112339996
+FGSM,Random Forest,pixel_std,0.0040978077963551175
+FGSM,Random Forest,pixel_min,0.0034264411248946243
+FGSM,Random Forest,pixel_max,0.00079897797538516
+FGSM,Random Forest,pixel_range,0.006811021807410591
+FGSM,Random Forest,pixel_median,0.0032828624645665798
+FGSM,Random Forest,pixel_skewness,0.002993160166594782
+FGSM,Random Forest,pixel_kurtosis,0.00312309716431698
+FGSM,Random Forest,pixel_p25,0.0033725151327953086
+FGSM,Random Forest,pixel_p75,0.00856041436953018
+FGSM,Random Forest,pixel_iqr,0.0033852770026930224
+FGSM,Random Forest,R_mean,0.00657684016660489
+FGSM,Random Forest,R_std,0.004016858077229086
+FGSM,Random Forest,R_min,0.010938999943683978
+FGSM,Random Forest,R_max,0.0014438846872297814
+FGSM,Random Forest,R_skewness,0.004341865791684408
+FGSM,Random Forest,R_kurtosis,0.003821413898062582
+FGSM,Random Forest,G_mean,0.004635775292646999
+FGSM,Random Forest,G_std,0.004200602758028347
+FGSM,Random Forest,G_min,0.009883687854577787
+FGSM,Random Forest,G_max,0.002021595999394894
+FGSM,Random Forest,G_skewness,0.003172718941023284
+FGSM,Random Forest,G_kurtosis,0.003625840814906847
+FGSM,Random Forest,B_mean,0.00438218693837163
+FGSM,Random Forest,B_std,0.008900993153046701
+FGSM,Random Forest,B_min,0.0029872141577283844
+FGSM,Random Forest,B_max,0.002494742345576062
+FGSM,Random Forest,B_skewness,0.004347010783224002
+FGSM,Random Forest,B_kurtosis,0.003791372047708655
+FGSM,Random Forest,freq_mean,0.06219596185616586
+FGSM,Random Forest,freq_std,0.08505800258855217
+FGSM,Random Forest,freq_max,0.003971710927960613
+FGSM,Random Forest,freq_min,0.08609037551953991
+FGSM,Random Forest,low_freq_energy,0.012374278154419615
+FGSM,Random Forest,high_freq_energy,0.016335773341287402
+FGSM,Random Forest,freq_energy_ratio,0.012267515912864773
+FGSM,Random Forest,spectral_entropy,0.0044075357219385955
+FGSM,Random Forest,spectral_flatness,0.10775824571660536
+FGSM,Random Forest,gradient_mean,0.011084337342772442
+FGSM,Random Forest,gradient_std,0.024114383245204256
+FGSM,Random Forest,gradient_max,0.01476559169297572
+FGSM,Random Forest,gradient_min,0.012046035827952493
+FGSM,Random Forest,gradient_median,0.07340479326013372
+FGSM,Random Forest,gradient_skewness,0.011582712398036767
+FGSM,Random Forest,gradient_kurtosis,0.009074647132718239
+FGSM,Random Forest,total_variation,0.04711318443740541
+FGSM,Random Forest,tv_horizontal,0.05316964150481116
+FGSM,Random Forest,tv_vertical,0.022696921901889194
+FGSM,Random Forest,edge_density,0.0002730723105847071
+FGSM,Random Forest,gradient_dir_std,0.016624416582714976
+FGSM,Random Forest,corr_RG,0.005965127741490303
+FGSM,Random Forest,corr_RB,0.004145208072892508
+FGSM,Random Forest,corr_GB,0.006674701023917055
+FGSM,Random Forest,color_variance,0.004205654860042753
+FGSM,Random Forest,color_entropy,0.005412526494182479
+FGSM,Random Forest,luminance_mean,0.003934530546182317
+FGSM,Random Forest,luminance_std,0.004050605296001191
+FGSM,Random Forest,saturation_mean,0.005460113132191795
+FGSM,Random Forest,saturation_std,0.007369836987118184
+FGSM,Random Forest,color_moment_1,0.0035721257357874936
+FGSM,Random Forest,color_moment_2,0.0036961462388029388
+FGSM,Random Forest,color_moment_3,0.0033037470155265814
+FGSM,Random Forest,texture_uniformity,0.05721919489443638
+FGSM,Random Forest,local_contrast_mean,0.03874885313861059
+FGSM,Random Forest,homogeneity,0.03053679367977948
+FGSM,XGBoost,pixel_mean,0.011024599894881248
+FGSM,XGBoost,pixel_std,0.005006818100810051
+FGSM,XGBoost,pixel_min,0.004570555407553911
+FGSM,XGBoost,pixel_max,0.009258816950023174
+FGSM,XGBoost,pixel_range,0.015971485525369644
+FGSM,XGBoost,pixel_median,0.006267434451729059
+FGSM,XGBoost,pixel_skewness,0.0031248743180185556
+FGSM,XGBoost,pixel_kurtosis,0.0036665149964392185
+FGSM,XGBoost,pixel_p25,0.0024730872828513384
+FGSM,XGBoost,pixel_p75,0.029452532529830933
+FGSM,XGBoost,pixel_iqr,0.005865093320608139
+FGSM,XGBoost,R_mean,0.005616694688796997
+FGSM,XGBoost,R_std,0.0047624739818274975
+FGSM,XGBoost,R_min,0.02808777242898941
+FGSM,XGBoost,R_max,0.0059266043826937675
+FGSM,XGBoost,R_skewness,0.006681842263787985
+FGSM,XGBoost,R_kurtosis,0.0056947702541947365
+FGSM,XGBoost,G_mean,0.004501037765294313
+FGSM,XGBoost,G_std,0.00500528747215867
+FGSM,XGBoost,G_min,0.025132430717349052
+FGSM,XGBoost,G_max,0.012897827662527561
+FGSM,XGBoost,G_skewness,0.0028812733944505453
+FGSM,XGBoost,G_kurtosis,0.003866539103910327
+FGSM,XGBoost,B_mean,0.010553584434092045
+FGSM,XGBoost,B_std,0.016038604080677032
+FGSM,XGBoost,B_min,0.011821389198303223
+FGSM,XGBoost,B_max,0.0146807124838233
+FGSM,XGBoost,B_skewness,0.007624990772455931
+FGSM,XGBoost,B_kurtosis,0.004292744677513838
+FGSM,XGBoost,freq_mean,0.014870229177176952
+FGSM,XGBoost,freq_std,0.02550860494375229
+FGSM,XGBoost,freq_max,0.0
+FGSM,XGBoost,freq_min,0.008601347915828228
+FGSM,XGBoost,low_freq_energy,0.018316905945539474
+FGSM,XGBoost,high_freq_energy,0.0
+FGSM,XGBoost,freq_energy_ratio,0.0
+FGSM,XGBoost,spectral_entropy,0.007301259785890579
+FGSM,XGBoost,spectral_flatness,0.24229490756988525
+FGSM,XGBoost,gradient_mean,0.0069919489324092865
+FGSM,XGBoost,gradient_std,0.013876717537641525
+FGSM,XGBoost,gradient_max,0.012127354741096497
+FGSM,XGBoost,gradient_min,0.06465895473957062
+FGSM,XGBoost,gradient_median,0.07180266082286835
+FGSM,XGBoost,gradient_skewness,0.011066015809774399
+FGSM,XGBoost,gradient_kurtosis,0.007958495058119297
+FGSM,XGBoost,total_variation,0.007893970236182213
+FGSM,XGBoost,tv_horizontal,0.010575156658887863
+FGSM,XGBoost,tv_vertical,0.013058863580226898
+FGSM,XGBoost,edge_density,0.0
+FGSM,XGBoost,gradient_dir_std,0.011547604575753212
+FGSM,XGBoost,corr_RG,0.005032713059335947
+FGSM,XGBoost,corr_RB,0.004522897768765688
+FGSM,XGBoost,corr_GB,0.010761064477264881
+FGSM,XGBoost,color_variance,0.0
+FGSM,XGBoost,color_entropy,0.006052795331925154
+FGSM,XGBoost,luminance_mean,0.006773118861019611
+FGSM,XGBoost,luminance_std,0.019685370847582817
+FGSM,XGBoost,saturation_mean,0.0095941461622715
+FGSM,XGBoost,saturation_std,0.00870287511497736
+FGSM,XGBoost,color_moment_1,0.0
+FGSM,XGBoost,color_moment_2,0.0
+FGSM,XGBoost,color_moment_3,0.0
+FGSM,XGBoost,texture_uniformity,0.012413754127919674
+FGSM,XGBoost,local_contrast_mean,0.03343633562326431
+FGSM,XGBoost,homogeneity,0.0618254728615284
+FGSM,LightGBM,pixel_mean,14.0
+FGSM,LightGBM,pixel_std,18.0
+FGSM,LightGBM,pixel_min,2.0
+FGSM,LightGBM,pixel_max,3.0
+FGSM,LightGBM,pixel_range,30.0
+FGSM,LightGBM,pixel_median,4.0
+FGSM,LightGBM,pixel_skewness,10.0
+FGSM,LightGBM,pixel_kurtosis,6.0
+FGSM,LightGBM,pixel_p25,11.0
+FGSM,LightGBM,pixel_p75,35.0
+FGSM,LightGBM,pixel_iqr,18.0
+FGSM,LightGBM,R_mean,34.0
+FGSM,LightGBM,R_std,15.0
+FGSM,LightGBM,R_min,36.0
+FGSM,LightGBM,R_max,13.0
+FGSM,LightGBM,R_skewness,31.0
+FGSM,LightGBM,R_kurtosis,16.0
+FGSM,LightGBM,G_mean,22.0
+FGSM,LightGBM,G_std,30.0
+FGSM,LightGBM,G_min,36.0
+FGSM,LightGBM,G_max,20.0
+FGSM,LightGBM,G_skewness,14.0
+FGSM,LightGBM,G_kurtosis,18.0
+FGSM,LightGBM,B_mean,39.0
+FGSM,LightGBM,B_std,42.0
+FGSM,LightGBM,B_min,25.0
+FGSM,LightGBM,B_max,26.0
+FGSM,LightGBM,B_skewness,34.0
+FGSM,LightGBM,B_kurtosis,17.0
+FGSM,LightGBM,freq_mean,146.0
+FGSM,LightGBM,freq_std,270.0
+FGSM,LightGBM,freq_max,2.0
+FGSM,LightGBM,freq_min,61.0
+FGSM,LightGBM,low_freq_energy,43.0
+FGSM,LightGBM,high_freq_energy,30.0
+FGSM,LightGBM,freq_energy_ratio,4.0
+FGSM,LightGBM,spectral_entropy,30.0
+FGSM,LightGBM,spectral_flatness,156.0
+FGSM,LightGBM,gradient_mean,29.0
+FGSM,LightGBM,gradient_std,145.0
+FGSM,LightGBM,gradient_max,138.0
+FGSM,LightGBM,gradient_min,67.0
+FGSM,LightGBM,gradient_median,127.0
+FGSM,LightGBM,gradient_skewness,104.0
+FGSM,LightGBM,gradient_kurtosis,64.0
+FGSM,LightGBM,total_variation,26.0
+FGSM,LightGBM,tv_horizontal,65.0
+FGSM,LightGBM,tv_vertical,127.0
+FGSM,LightGBM,edge_density,1.0
+FGSM,LightGBM,gradient_dir_std,123.0
+FGSM,LightGBM,corr_RG,58.0
+FGSM,LightGBM,corr_RB,31.0
+FGSM,LightGBM,corr_GB,77.0
+FGSM,LightGBM,color_variance,3.0
+FGSM,LightGBM,color_entropy,55.0
+FGSM,LightGBM,luminance_mean,11.0
+FGSM,LightGBM,luminance_std,28.0
+FGSM,LightGBM,saturation_mean,44.0
+FGSM,LightGBM,saturation_std,88.0
+FGSM,LightGBM,color_moment_1,0.0
+FGSM,LightGBM,color_moment_2,0.0
+FGSM,LightGBM,color_moment_3,0.0
+FGSM,LightGBM,texture_uniformity,185.0
+FGSM,LightGBM,local_contrast_mean,18.0
+FGSM,LightGBM,homogeneity,25.0
+PGD,Random Forest,pixel_mean,0.005919122750694827
+PGD,Random Forest,pixel_std,0.006292181658355271
+PGD,Random Forest,pixel_min,0.007225727157808324
+PGD,Random Forest,pixel_max,0.003014658521276409
+PGD,Random Forest,pixel_range,0.009716824015458057
+PGD,Random Forest,pixel_median,0.004594062616462517
+PGD,Random Forest,pixel_skewness,0.004053854178403263
+PGD,Random Forest,pixel_kurtosis,0.00480251375318733
+PGD,Random Forest,pixel_p25,0.005025619372864502
+PGD,Random Forest,pixel_p75,0.01157253677026932
+PGD,Random Forest,pixel_iqr,0.005796505621305843
+PGD,Random Forest,R_mean,0.006732914150349617
+PGD,Random Forest,R_std,0.006680332125598748
+PGD,Random Forest,R_min,0.014043724734066912
+PGD,Random Forest,R_max,0.0024119764576862653
+PGD,Random Forest,R_skewness,0.005796627160698751
+PGD,Random Forest,R_kurtosis,0.0053708796476239825
+PGD,Random Forest,G_mean,0.004640962043589332
+PGD,Random Forest,G_std,0.005595998636283044
+PGD,Random Forest,G_min,0.01664014733056696
+PGD,Random Forest,G_max,0.005342722022300559
+PGD,Random Forest,G_skewness,0.004493011836334063
+PGD,Random Forest,G_kurtosis,0.004476028350651242
+PGD,Random Forest,B_mean,0.007863076202131267
+PGD,Random Forest,B_std,0.00978060777476657
+PGD,Random Forest,B_min,0.005206709457768636
+PGD,Random Forest,B_max,0.0034085958233749792
+PGD,Random Forest,B_skewness,0.005541410293446337
+PGD,Random Forest,B_kurtosis,0.005436882190179135
+PGD,Random Forest,freq_mean,0.07387353961172761
+PGD,Random Forest,freq_std,0.14139207755214328
+PGD,Random Forest,freq_max,0.005807891293721238
+PGD,Random Forest,freq_min,0.08800305708260193
+PGD,Random Forest,low_freq_energy,0.015342995954671732
+PGD,Random Forest,high_freq_energy,0.014329391326969733
+PGD,Random Forest,freq_energy_ratio,0.015256890942428556
+PGD,Random Forest,spectral_entropy,0.008261924614778681
+PGD,Random Forest,spectral_flatness,0.1504903159525696
+PGD,Random Forest,gradient_mean,0.011708211019734939
+PGD,Random Forest,gradient_std,0.016816932463622744
+PGD,Random Forest,gradient_max,0.017243225384514692
+PGD,Random Forest,gradient_min,0.00026638034477710924
+PGD,Random Forest,gradient_median,0.02511206822793111
+PGD,Random Forest,gradient_skewness,0.00991361862684159
+PGD,Random Forest,gradient_kurtosis,0.00979407422343162
+PGD,Random Forest,total_variation,0.01774273450220707
+PGD,Random Forest,tv_horizontal,0.023501539859162823
+PGD,Random Forest,tv_vertical,0.013836699022580617
+PGD,Random Forest,edge_density,0.00020647122597718508
+PGD,Random Forest,gradient_dir_std,0.016811951826600634
+PGD,Random Forest,corr_RG,0.007848858586195617
+PGD,Random Forest,corr_RB,0.005690526235718653
+PGD,Random Forest,corr_GB,0.008520329358364253
+PGD,Random Forest,color_variance,0.006534105268267284
+PGD,Random Forest,color_entropy,0.006745851041476279
+PGD,Random Forest,luminance_mean,0.005617640499143349
+PGD,Random Forest,luminance_std,0.0063594863081087825
+PGD,Random Forest,saturation_mean,0.008109651365024022
+PGD,Random Forest,saturation_std,0.007734336388075646
+PGD,Random Forest,color_moment_1,0.005064514931511418
+PGD,Random Forest,color_moment_2,0.006590555489118871
+PGD,Random Forest,color_moment_3,0.0045363767613970565
+PGD,Random Forest,texture_uniformity,0.02847707858976726
+PGD,Random Forest,local_contrast_mean,0.016866005976998083
+PGD,Random Forest,homogeneity,0.012116479488336922
+PGD,XGBoost,pixel_mean,0.007767579983919859
+PGD,XGBoost,pixel_std,0.008706074208021164
+PGD,XGBoost,pixel_min,0.0068662227131426334
+PGD,XGBoost,pixel_max,0.015909280627965927
+PGD,XGBoost,pixel_range,0.059862326830625534
+PGD,XGBoost,pixel_median,0.002421896904706955
+PGD,XGBoost,pixel_skewness,0.004605455789715052
+PGD,XGBoost,pixel_kurtosis,0.003647317411378026
+PGD,XGBoost,pixel_p25,0.007604349870234728
+PGD,XGBoost,pixel_p75,0.029982833191752434
+PGD,XGBoost,pixel_iqr,0.004476871807128191
+PGD,XGBoost,R_mean,0.006310582626610994
+PGD,XGBoost,R_std,0.01136925257742405
+PGD,XGBoost,R_min,0.029696661978960037
+PGD,XGBoost,R_max,0.009525598026812077
+PGD,XGBoost,R_skewness,0.00837249681353569
+PGD,XGBoost,R_kurtosis,0.0054435101337730885
+PGD,XGBoost,G_mean,0.007388226687908173
+PGD,XGBoost,G_std,0.008205977268517017
+PGD,XGBoost,G_min,0.06551963090896606
+PGD,XGBoost,G_max,0.03159727528691292
+PGD,XGBoost,G_skewness,0.004988792818039656
+PGD,XGBoost,G_kurtosis,0.006359966937452555
+PGD,XGBoost,B_mean,0.015707526355981827
+PGD,XGBoost,B_std,0.014570966362953186
+PGD,XGBoost,B_min,0.0111068831756711
+PGD,XGBoost,B_max,0.007556187454611063
+PGD,XGBoost,B_skewness,0.009089255705475807
+PGD,XGBoost,B_kurtosis,0.0056824092753231525
+PGD,XGBoost,freq_mean,0.017154254019260406
+PGD,XGBoost,freq_std,0.03605121374130249
+PGD,XGBoost,freq_max,0.0
+PGD,XGBoost,freq_min,0.022308891639113426
+PGD,XGBoost,low_freq_energy,0.03228805959224701
+PGD,XGBoost,high_freq_energy,0.03561322018504143
+PGD,XGBoost,freq_energy_ratio,0.0
+PGD,XGBoost,spectral_entropy,0.013153514824807644
+PGD,XGBoost,spectral_flatness,0.15869028866291046
+PGD,XGBoost,gradient_mean,0.0055275848135352135
+PGD,XGBoost,gradient_std,0.013362905941903591
+PGD,XGBoost,gradient_max,0.016537996008992195
+PGD,XGBoost,gradient_min,0.011754661798477173
+PGD,XGBoost,gradient_median,0.02194594219326973
+PGD,XGBoost,gradient_skewness,0.010345187969505787
+PGD,XGBoost,gradient_kurtosis,0.012394480407238007
+PGD,XGBoost,total_variation,0.00877308938652277
+PGD,XGBoost,tv_horizontal,0.00929232221096754
+PGD,XGBoost,tv_vertical,0.015205531381070614
+PGD,XGBoost,edge_density,0.0
+PGD,XGBoost,gradient_dir_std,0.030472764745354652
+PGD,XGBoost,corr_RG,0.009035054594278336
+PGD,XGBoost,corr_RB,0.00609793933108449
+PGD,XGBoost,corr_GB,0.01329591404646635
+PGD,XGBoost,color_variance,0.0
+PGD,XGBoost,color_entropy,0.009317238815128803
+PGD,XGBoost,luminance_mean,0.004091797396540642
+PGD,XGBoost,luminance_std,0.00660655228421092
+PGD,XGBoost,saturation_mean,0.00951654277741909
+PGD,XGBoost,saturation_std,0.00677958969026804
+PGD,XGBoost,color_moment_1,0.0
+PGD,XGBoost,color_moment_2,0.0
+PGD,XGBoost,color_moment_3,0.0
+PGD,XGBoost,texture_uniformity,0.01606699824333191
+PGD,XGBoost,local_contrast_mean,0.01628860831260681
+PGD,XGBoost,homogeneity,0.02169044502079487
+PGD,LightGBM,pixel_mean,7.0
+PGD,LightGBM,pixel_std,14.0
+PGD,LightGBM,pixel_min,4.0
+PGD,LightGBM,pixel_max,3.0
+PGD,LightGBM,pixel_range,38.0
+PGD,LightGBM,pixel_median,10.0
+PGD,LightGBM,pixel_skewness,8.0
+PGD,LightGBM,pixel_kurtosis,11.0
+PGD,LightGBM,pixel_p25,15.0
+PGD,LightGBM,pixel_p75,36.0
+PGD,LightGBM,pixel_iqr,12.0
+PGD,LightGBM,R_mean,14.0
+PGD,LightGBM,R_std,29.0
+PGD,LightGBM,R_min,33.0
+PGD,LightGBM,R_max,12.0
+PGD,LightGBM,R_skewness,36.0
+PGD,LightGBM,R_kurtosis,22.0
+PGD,LightGBM,G_mean,21.0
+PGD,LightGBM,G_std,28.0
+PGD,LightGBM,G_min,26.0
+PGD,LightGBM,G_max,13.0
+PGD,LightGBM,G_skewness,11.0
+PGD,LightGBM,G_kurtosis,14.0
+PGD,LightGBM,B_mean,36.0
+PGD,LightGBM,B_std,55.0
+PGD,LightGBM,B_min,16.0
+PGD,LightGBM,B_max,11.0
+PGD,LightGBM,B_skewness,29.0
+PGD,LightGBM,B_kurtosis,25.0
+PGD,LightGBM,freq_mean,177.0
+PGD,LightGBM,freq_std,309.0
+PGD,LightGBM,freq_max,1.0
+PGD,LightGBM,freq_min,87.0
+PGD,LightGBM,low_freq_energy,41.0
+PGD,LightGBM,high_freq_energy,21.0
+PGD,LightGBM,freq_energy_ratio,3.0
+PGD,LightGBM,spectral_entropy,41.0
+PGD,LightGBM,spectral_flatness,166.0
+PGD,LightGBM,gradient_mean,28.0
+PGD,LightGBM,gradient_std,112.0
+PGD,LightGBM,gradient_max,114.0
+PGD,LightGBM,gradient_min,65.0
+PGD,LightGBM,gradient_median,142.0
+PGD,LightGBM,gradient_skewness,80.0
+PGD,LightGBM,gradient_kurtosis,59.0
+PGD,LightGBM,total_variation,56.0
+PGD,LightGBM,tv_horizontal,56.0
+PGD,LightGBM,tv_vertical,116.0
+PGD,LightGBM,edge_density,0.0
+PGD,LightGBM,gradient_dir_std,91.0
+PGD,LightGBM,corr_RG,48.0
+PGD,LightGBM,corr_RB,30.0
+PGD,LightGBM,corr_GB,44.0
+PGD,LightGBM,color_variance,8.0
+PGD,LightGBM,color_entropy,38.0
+PGD,LightGBM,luminance_mean,4.0
+PGD,LightGBM,luminance_std,34.0
+PGD,LightGBM,saturation_mean,49.0
+PGD,LightGBM,saturation_std,44.0
+PGD,LightGBM,color_moment_1,0.0
+PGD,LightGBM,color_moment_2,0.0
+PGD,LightGBM,color_moment_3,0.0
+PGD,LightGBM,texture_uniformity,295.0
+PGD,LightGBM,local_contrast_mean,33.0
+PGD,LightGBM,homogeneity,19.0
+Combined,Random Forest,pixel_mean,0.005501347432830321
+Combined,Random Forest,pixel_std,0.005201381162116717
+Combined,Random Forest,pixel_min,0.004428177562552963
+Combined,Random Forest,pixel_max,0.002035703490411661
+Combined,Random Forest,pixel_range,0.008204334360121803
+Combined,Random Forest,pixel_median,0.004882559338453527
+Combined,Random Forest,pixel_skewness,0.004552991036146446
+Combined,Random Forest,pixel_kurtosis,0.004488203433493657
+Combined,Random Forest,pixel_p25,0.004429724566457082
+Combined,Random Forest,pixel_p75,0.009282328356858495
+Combined,Random Forest,pixel_iqr,0.004917793416306517
+Combined,Random Forest,R_mean,0.006653751498441368
+Combined,Random Forest,R_std,0.005336909255362625
+Combined,Random Forest,R_min,0.013747178580146074
+Combined,Random Forest,R_max,0.002626044414807182
+Combined,Random Forest,R_skewness,0.0053153692673569095
+Combined,Random Forest,R_kurtosis,0.0052409333129246945
+Combined,Random Forest,G_mean,0.005482469124511966
+Combined,Random Forest,G_std,0.005919403265296611
+Combined,Random Forest,G_min,0.01655845137373622
+Combined,Random Forest,G_max,0.005342525874494669
+Combined,Random Forest,G_skewness,0.004357607842825588
+Combined,Random Forest,G_kurtosis,0.004316889674826198
+Combined,Random Forest,B_mean,0.007514063874693048
+Combined,Random Forest,B_std,0.008542010502546911
+Combined,Random Forest,B_min,0.004120816163130896
+Combined,Random Forest,B_max,0.0034067146745412214
+Combined,Random Forest,B_skewness,0.005817624549864354
+Combined,Random Forest,B_kurtosis,0.005107454520181793
+Combined,Random Forest,freq_mean,0.06750292059456794
+Combined,Random Forest,freq_std,0.10705072859461186
+Combined,Random Forest,freq_max,0.005498931036708304
+Combined,Random Forest,freq_min,0.0934014208124678
+Combined,Random Forest,low_freq_energy,0.013902493176953077
+Combined,Random Forest,high_freq_energy,0.016340137473533925
+Combined,Random Forest,freq_energy_ratio,0.013134788248930497
+Combined,Random Forest,spectral_entropy,0.006005288998588449
+Combined,Random Forest,spectral_flatness,0.1409177513238742
+Combined,Random Forest,gradient_mean,0.010120581128088956
+Combined,Random Forest,gradient_std,0.01889068130134265
+Combined,Random Forest,gradient_max,0.016915719049780856
+Combined,Random Forest,gradient_min,0.00592700694245816
+Combined,Random Forest,gradient_median,0.039642866740669594
+Combined,Random Forest,gradient_skewness,0.009090532535579234
+Combined,Random Forest,gradient_kurtosis,0.009154581296776137
+Combined,Random Forest,total_variation,0.02653589348968019
+Combined,Random Forest,tv_horizontal,0.03369689002742586
+Combined,Random Forest,tv_vertical,0.018958440174261668
+Combined,Random Forest,edge_density,0.0001915889851314658
+Combined,Random Forest,gradient_dir_std,0.01865776683464563
+Combined,Random Forest,corr_RG,0.0076011978070209645
+Combined,Random Forest,corr_RB,0.005021414205141041
+Combined,Random Forest,corr_GB,0.008300453490352777
+Combined,Random Forest,color_variance,0.005995000801057571
+Combined,Random Forest,color_entropy,0.008055304190451862
+Combined,Random Forest,luminance_mean,0.006214095791371569
+Combined,Random Forest,luminance_std,0.006239616633101756
+Combined,Random Forest,saturation_mean,0.0077096889180603865
+Combined,Random Forest,saturation_std,0.007973287154448543
+Combined,Random Forest,color_moment_1,0.005511967670251792
+Combined,Random Forest,color_moment_2,0.006065244920387992
+Combined,Random Forest,color_moment_3,0.003858610104052591
+Combined,Random Forest,texture_uniformity,0.03250045379265188
+Combined,Random Forest,local_contrast_mean,0.0255098202975208
+Combined,Random Forest,homogeneity,0.018576073532614448
+Combined,XGBoost,pixel_mean,0.007028630934655666
+Combined,XGBoost,pixel_std,0.03074244223535061
+Combined,XGBoost,pixel_min,0.0044168452732264996
+Combined,XGBoost,pixel_max,0.009021143428981304
+Combined,XGBoost,pixel_range,0.04093656316399574
+Combined,XGBoost,pixel_median,0.004099029581993818
+Combined,XGBoost,pixel_skewness,0.0035894718021154404
+Combined,XGBoost,pixel_kurtosis,0.003268071450293064
+Combined,XGBoost,pixel_p25,0.009011606685817242
+Combined,XGBoost,pixel_p75,0.03315107151865959
+Combined,XGBoost,pixel_iqr,0.005734647624194622
+Combined,XGBoost,R_mean,0.006742342375218868
+Combined,XGBoost,R_std,0.0065835146233439445
+Combined,XGBoost,R_min,0.0293581560254097
+Combined,XGBoost,R_max,0.014216270297765732
+Combined,XGBoost,R_skewness,0.008993130177259445
+Combined,XGBoost,R_kurtosis,0.0041856225579977036
+Combined,XGBoost,G_mean,0.0054830401204526424
+Combined,XGBoost,G_std,0.005531280767172575
+Combined,XGBoost,G_min,0.04503233730792999
+Combined,XGBoost,G_max,0.031091786921024323
+Combined,XGBoost,G_skewness,0.005781508982181549
+Combined,XGBoost,G_kurtosis,0.005689860321581364
+Combined,XGBoost,B_mean,0.019321631640195847
+Combined,XGBoost,B_std,0.00767314899712801
+Combined,XGBoost,B_min,0.007630576379597187
+Combined,XGBoost,B_max,0.008783135563135147
+Combined,XGBoost,B_skewness,0.010501132346689701
+Combined,XGBoost,B_kurtosis,0.006628151051700115
+Combined,XGBoost,freq_mean,0.015421629883348942
+Combined,XGBoost,freq_std,0.03337530791759491
+Combined,XGBoost,freq_max,0.0
+Combined,XGBoost,freq_min,0.01820058375597
+Combined,XGBoost,low_freq_energy,0.023036865517497063
+Combined,XGBoost,high_freq_energy,0.019223259761929512
+Combined,XGBoost,freq_energy_ratio,0.0
+Combined,XGBoost,spectral_entropy,0.013839815743267536
+Combined,XGBoost,spectral_flatness,0.21238787472248077
+Combined,XGBoost,gradient_mean,0.014667116105556488
+Combined,XGBoost,gradient_std,0.014835990965366364
+Combined,XGBoost,gradient_max,0.018065249547362328
+Combined,XGBoost,gradient_min,0.038523636758327484
+Combined,XGBoost,gradient_median,0.021308815106749535
+Combined,XGBoost,gradient_skewness,0.010168015025556087
+Combined,XGBoost,gradient_kurtosis,0.008673075586557388
+Combined,XGBoost,total_variation,0.0137245524674654
+Combined,XGBoost,tv_horizontal,0.0073353140614926815
+Combined,XGBoost,tv_vertical,0.017718572169542313
+Combined,XGBoost,edge_density,0.0
+Combined,XGBoost,gradient_dir_std,0.016120420768857002
+Combined,XGBoost,corr_RG,0.00955663900822401
+Combined,XGBoost,corr_RB,0.005803416017442942
+Combined,XGBoost,corr_GB,0.011010264046490192
+Combined,XGBoost,color_variance,0.0
+Combined,XGBoost,color_entropy,0.005429281387478113
+Combined,XGBoost,luminance_mean,0.00778362900018692
+Combined,XGBoost,luminance_std,0.012585779651999474
+Combined,XGBoost,saturation_mean,0.00747518427670002
+Combined,XGBoost,saturation_std,0.011034026741981506
+Combined,XGBoost,color_moment_1,0.0
+Combined,XGBoost,color_moment_2,0.0
+Combined,XGBoost,color_moment_3,0.0
+Combined,XGBoost,texture_uniformity,0.012384062632918358
+Combined,XGBoost,local_contrast_mean,0.012627462856471539
+Combined,XGBoost,homogeneity,0.007457972504198551
+Combined,LightGBM,pixel_mean,9.0
+Combined,LightGBM,pixel_std,19.0
+Combined,LightGBM,pixel_min,3.0
+Combined,LightGBM,pixel_max,4.0
+Combined,LightGBM,pixel_range,30.0
+Combined,LightGBM,pixel_median,10.0
+Combined,LightGBM,pixel_skewness,10.0
+Combined,LightGBM,pixel_kurtosis,8.0
+Combined,LightGBM,pixel_p25,21.0
+Combined,LightGBM,pixel_p75,45.0
+Combined,LightGBM,pixel_iqr,17.0
+Combined,LightGBM,R_mean,26.0
+Combined,LightGBM,R_std,36.0
+Combined,LightGBM,R_min,39.0
+Combined,LightGBM,R_max,20.0
+Combined,LightGBM,R_skewness,41.0
+Combined,LightGBM,R_kurtosis,15.0
+Combined,LightGBM,G_mean,24.0
+Combined,LightGBM,G_std,16.0
+Combined,LightGBM,G_min,43.0
+Combined,LightGBM,G_max,20.0
+Combined,LightGBM,G_skewness,23.0
+Combined,LightGBM,G_kurtosis,16.0
+Combined,LightGBM,B_mean,31.0
+Combined,LightGBM,B_std,50.0
+Combined,LightGBM,B_min,13.0
+Combined,LightGBM,B_max,15.0
+Combined,LightGBM,B_skewness,43.0
+Combined,LightGBM,B_kurtosis,27.0
+Combined,LightGBM,freq_mean,156.0
+Combined,LightGBM,freq_std,329.0
+Combined,LightGBM,freq_max,0.0
+Combined,LightGBM,freq_min,76.0
+Combined,LightGBM,low_freq_energy,30.0
+Combined,LightGBM,high_freq_energy,21.0
+Combined,LightGBM,freq_energy_ratio,1.0
+Combined,LightGBM,spectral_entropy,38.0
+Combined,LightGBM,spectral_flatness,151.0
+Combined,LightGBM,gradient_mean,33.0
+Combined,LightGBM,gradient_std,155.0
+Combined,LightGBM,gradient_max,110.0
+Combined,LightGBM,gradient_min,60.0
+Combined,LightGBM,gradient_median,146.0
+Combined,LightGBM,gradient_skewness,94.0
+Combined,LightGBM,gradient_kurtosis,59.0
+Combined,LightGBM,total_variation,44.0
+Combined,LightGBM,tv_horizontal,49.0
+Combined,LightGBM,tv_vertical,116.0
+Combined,LightGBM,edge_density,0.0
+Combined,LightGBM,gradient_dir_std,108.0
+Combined,LightGBM,corr_RG,47.0
+Combined,LightGBM,corr_RB,34.0
+Combined,LightGBM,corr_GB,66.0
+Combined,LightGBM,color_variance,0.0
+Combined,LightGBM,color_entropy,28.0
+Combined,LightGBM,luminance_mean,9.0
+Combined,LightGBM,luminance_std,12.0
+Combined,LightGBM,saturation_mean,46.0
+Combined,LightGBM,saturation_std,72.0
+Combined,LightGBM,color_moment_1,0.0
+Combined,LightGBM,color_moment_2,0.0
+Combined,LightGBM,color_moment_3,0.0
+Combined,LightGBM,texture_uniformity,206.0
+Combined,LightGBM,local_contrast_mean,17.0
+Combined,LightGBM,homogeneity,13.0
